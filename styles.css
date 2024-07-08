@@ -26,9 +26,9 @@ body{
 @font-face{
     font-family: 'porschefont';
     src:
-        url('/fonts/Scion W01 650R Bold.ttf') format('truetype'),
-        url('/fonts/Scion W01 650R Bold.woff') format('woff')
-        url('/fonts/Scion W01 650R Bold.woff2') format('woff2');
+        url('/Porsche/fonts/Scion W01 650R Bold.ttf') format('truetype'),
+        url('/Porsche/fonts/Scion W01 650R Bold.woff') format('woff')
+        url('/Porsche/fonts/Scion W01 650R Bold.woff2') format('woff2');
 
 }
 .menu{
