@@ -1,3 +1,39 @@
+@font-face{
+    font-family: 'porschefont';
+    src:
+        url('/Porsche/fonts/ScionW01650RBold.ttf') format('truetype');
+}
+@font-face {
+    font-family:'menufont';
+    src: url('/Porsche/fonts/Cervino-LightNeue.ttf') format('truetype'),
+    url('/Porsche/fonts/Cervino-LightNeue.woff') format('woff'),
+    url('/Porsche/fonts/Cervino-LightNeue.woff2') format('woff2');
+}
+@font-face {
+    font-family:'textoverlay1';
+    src: url('/Porsche/fonts/NeuePlak-NarrowSemiBold.ttf') format('truetype'),
+    url('/Porsche/fonts/NeuePlak-NarrowSemiBold.woff') format('woff'),
+    url('/Porsche/fonts/NeuePlak-NarrowSemiBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'textoverlay2';
+    src: url('/Porsche/fonts/DINPro-CondBold.ttf') format('truetype'),
+    url('/Porsche/fonts/DINPro-CondBold.woff') format('woff'),
+    url('/Porsche/fonts/DINPro-CondBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'modeltextfont';
+    src: url('/Porsche/fonts/FoundryMonoline-Bold.ttf') format('truetype'),
+    url('/Porsche/fonts/FoundryMonoline-Bold.woff') format('woff'),
+    url('/Porsche/fonts/FoundryMonoline-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'box5text';
+    src: url('/Porsche/fonts/AmsiProNarrow-Bold.ttf') format('truetype'),
+    url('/Porsche/fonts/AmsiProNarrow-Bold.woff') format('woff'),
+    url('/Porsche/fonts/AmsiProNarrow-Bold.woff2') format('woff2');
+}
 .header{
     background-color: white;
     height: 80px;
@@ -23,11 +59,7 @@ body{
     text-decoration: none;
     font-family: 'porschefont';
 }
-@font-face{
-    font-family: 'porschefont';
-    src:
-        url('/Porsche/fonts/ScionW01650RBold.ttf') format('truetype');
-}
+
 .menu{
     margin-left: 85px;
     transform: translate(0px,5px);
@@ -56,12 +88,7 @@ button{
     font-family: 'menufont';
     letter-spacing: 2px;
 }
-@font-face {
-    font-family:'menufont';
-    src: url('/Porsche/fonts/Cervino-LightNeue.ttf') format('truetype'),
-    url('/Porsche/fonts/Cervino-LightNeue.woff') format('woff'),
-    url('/Porsche/fonts/Cervino-LightNeue.woff2') format('woff2');
-}
+
 .firstimage{
     width: 100%;
     height: 580px;
@@ -75,12 +102,7 @@ button{
     z-index:2;
     transform: translate(109px,440px);
 }
-@font-face {
-    font-family:'textoverlay1';
-    src: url('/Porsche/fonts/NeuePlak-NarrowSemiBold.ttf') format('truetype'),
-    url('/Porsche/fonts/NeuePlak-NarrowSemiBold.woff') format('woff'),
-    url('/Porsche/fonts/NeuePlak-NarrowSemiBold.woff2') format('woff2');
-}
+
 .textoverlay1{
     font-family: 'textoverlay1';
     transform: translate(140px,420px);
@@ -97,12 +119,7 @@ button{
     position: absolute;
     z-index: 4;
 }
-@font-face {
-    font-family: 'textoverlay2';
-    src: url('/Porsche/fonts/DINPro-CondBold.ttf') format('truetype'),
-    url('/Porsche/fonts/DINPro-CondBold.woff') format('woff'),
-    url('/Porsche/fonts/DINPro-CondBold.woff2') format('woff2');
-}
+
 .modelstextdiv{
     display: flex;
     flex-direction: column;
@@ -121,12 +138,7 @@ button{
     font-size: 46px;
     letter-spacing: -2px;
 }
-@font-face {
-    font-family: 'modeltextfont';
-    src: url('/Porsche/fonts/FoundryMonoline-Bold.ttf') format('truetype'),
-    url('/Porsche/fonts/FoundryMonoline-Bold.woff') format('woff'),
-    url('/Porsche/fonts/FoundryMonoline-Bold.woff2') format('woff2');
-}
+
 .modelsdiv1{
     background-color: blue;
     height: 355px;
@@ -227,12 +239,7 @@ button{
     font-family: 'box5text';
     font-size: 50px;
 }
-@font-face {
-    font-family: 'box5text';
-    src: url('/Porsche/fonts/AmsiProNarrow-Bold.ttf') format('truetype'),
-    url('/Porsche/fonts/AmsiProNarrow-Bold.woff') format('woff'),
-    url('/Porsche/fonts/AmsiProNarrow-Bold.woff2') format('woff2');
-}
+
 #butt1{
     background-color: rgb(86, 82, 82);
     height: 50px;
