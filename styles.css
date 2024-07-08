@@ -26,9 +26,9 @@ body{
 @font-face{
     font-family: 'porschefont';
     src:
-        url('/fonts/Scion\ W01\ 650R\ Bold.ttf') format('truetype'),
-        url('/fonts/Scion\ W01\ 650R\ Bold.woff') format('woff')
-        url('/fonts/Scion\ W01\ 650R\ Bold.woff2') format('woff2');
+        url('/Porsche/fonts/Scion\ W01\ 650R\ Bold.ttf') format('truetype'),
+        url('/Porsche/fonts/Scion\ W01\ 650R\ Bold.woff') format('woff')
+        url('/Porsche/fonts/Scion\ W01\ 650R\ Bold.woff2') format('woff2');
 
 }
 .menu{
@@ -61,9 +61,9 @@ button{
 }
 @font-face {
     font-family:'menufont';
-    src: url('/fonts/Cervino-LightNeue.ttf') format('truetype'),
-    url('/fonts/Cervino-LightNeue.woff') format('woff'),
-    url('/fonts/Cervino-LightNeue.woff2') format('woff2');
+    src: url('/Porsche/fonts/Cervino-LightNeue.ttf') format('truetype'),
+    url('/Porsche/fonts/Cervino-LightNeue.woff') format('woff'),
+    url('/Porsche/fonts/Cervino-LightNeue.woff2') format('woff2');
 }
 .firstimage{
     width: 100%;
@@ -80,9 +80,9 @@ button{
 }
 @font-face {
     font-family:'textoverlay1';
-    src: url('/fonts/NeuePlak-NarrowSemiBold.ttf') format('truetype'),
-    url('/fonts/NeuePlak-NarrowSemiBold.woff') format('woff'),
-    url('/fonts/NeuePlak-NarrowSemiBold.woff2') format('woff2');
+    src: url('/Porsche/fonts/NeuePlak-NarrowSemiBold.ttf') format('truetype'),
+    url('/Porsche/fonts/NeuePlak-NarrowSemiBold.woff') format('woff'),
+    url('/Porsche/fonts/NeuePlak-NarrowSemiBold.woff2') format('woff2');
 }
 .textoverlay1{
     font-family: 'textoverlay1';
@@ -102,9 +102,9 @@ button{
 }
 @font-face {
     font-family: 'textoverlay2';
-    src: url('/fonts/DINPro-CondBold.ttf') format('truetype'),
-    url('/fonts/DINPro-CondBold.woff') format('woff'),
-    url('/fonts/DINPro-CondBold.woff2') format('woff2');
+    src: url('/Porsche/fonts/DINPro-CondBold.ttf') format('truetype'),
+    url('/Porsche/fonts/DINPro-CondBold.woff') format('woff'),
+    url('/Porsche/fonts/DINPro-CondBold.woff2') format('woff2');
 }
 .modelstextdiv{
     display: flex;
@@ -126,9 +126,9 @@ button{
 }
 @font-face {
     font-family: 'modeltextfont';
-    src: url('/fonts/FoundryMonoline-Bold.ttf') format('truetype'),
-    url('/fonts/FoundryMonoline-Bold.woff') format('woff'),
-    url('/fonts/FoundryMonoline-Bold.woff2') format('woff2');
+    src: url('/Porsche/fonts/FoundryMonoline-Bold.ttf') format('truetype'),
+    url('/Porsche/fonts/FoundryMonoline-Bold.woff') format('woff'),
+    url('/Porsche/fonts/FoundryMonoline-Bold.woff2') format('woff2');
 }
 .modelsdiv1{
     background-color: blue;
@@ -232,9 +232,9 @@ button{
 }
 @font-face {
     font-family: 'box5text';
-    src: url('/fonts/AmsiProNarrow-Bold.ttf') format('truetype'),
-    url('/fonts/AmsiProNarrow-Bold.woff') format('woff'),
-    url('/fonts/AmsiProNarrow-Bold.woff2') format('woff2');
+    src: url('/Porsche/fonts/AmsiProNarrow-Bold.ttf') format('truetype'),
+    url('/Porsche/fonts/AmsiProNarrow-Bold.woff') format('woff'),
+    url('/Porsche/fonts/AmsiProNarrow-Bold.woff2') format('woff2');
 }
 #butt1{
     background-color: rgb(86, 82, 82);
